@@ -1,0 +1,12 @@
+import cv2
+cv2.putText("Sun",(20,300),fontFace=cv2.FONT_HERSHEY_COMPLEX,fontScale=0.5,color=(255,255,255))
+cv2.putText("Mercury",(20,320),fontFace=cv2.FONT_HERSHEY_COMPLEX,fontScale=0.5,color=(255,255,255))
+cv2.putText("Venus",(20,340),fontFace=cv2.FONT_HERSHEY_COMPLEX,fontScale=0.5,color=(255,255,255))
+cv2.putText("Earth",(20,360),fontFace=cv2.FONT_HERSHEY_COMPLEX,fontScale=0.5,color=(255,255,255))
+cv2.putText("Mars",(20,380),fontFace=cv2.FONT_HERSHEY_COMPLEX,fontScale=0.5,color=(255,255,255))
+cv2.putText("Jupiter",(20,400),fontFace=cv2.FONT_HERSHEY_COMPLEX,fontScale=0.5,color=(255,255,255))
+cv2.putText("Saturn",(20,420),fontFace=cv2.FONT_HERSHEY_COMPLEX,fontScale=0.5,color=(255,255,255))
+cv2.putText("Uranus",(20,440),fontFace=cv2.FONT_HERSHEY_COMPLEX,fontScale=0.5,color=(255,255,255))
+cv2.putText("Neptune",(20,460),fontFace=cv2.FONT_HERSHEY_COMPLEX,fontScale=0.5,color=(255,255,255))
+cv2.imshow("Planets")
+cv2.waitKey(0)
